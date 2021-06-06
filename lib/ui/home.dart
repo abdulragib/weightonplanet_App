@@ -145,13 +145,14 @@ class HomeState extends State<Home> {
   }
 }
 
+//activeColor: active color property used to change color of radio button
 //onchanged to used to change state of radio button in a same group
 
 // groupVAlue is The currently selected value for this group of radio buttons.
 // This radio button is considered selected if its value matches the groupValue.
 
 //value is unique identifier for every radio button.
-//IN Radio<int>, <int> is used for using only integer value in radio buttons.
+//In Radio<int>, <int> is used for using only integer value in radio buttons.
 
 // int.parse(weight) is used to convert String into Number.
 // toStirng() is used to Returns a string representation of the integer.
